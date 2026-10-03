@@ -57,6 +57,7 @@ ROOT_URLCONF = 'flower.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://frontend-dep-three.vercel.app",
 ]
 TEMPLATES = [
     {
